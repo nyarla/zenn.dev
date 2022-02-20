@@ -1,0 +1,40 @@
+version: 1
+rules:
+  # プログラミング言語
+  - expected: JavaScript
+  - expected: TypeScript
+
+  # 単語表現
+  - expected: Web カード
+    patterns:
+      - Web Card
+      - Webcard
+  - expected: Twitter カード
+    patterns:
+      - twitter カード
+      - Twitter Card
+
+  - expected: 方達
+    patterns:
+      - 方たち
+
+  # 誤字・脱字
+  - expected: とりあえず
+    patterns:
+      - とりえず
+      - とりあず
+  - expected: あります
+    patterns:
+      - あるます
+  - expected: どうすべきか
+    patterns:
+      - どうすべか
+  - expected: 言うのも
+    patterns:
+      - 言いのも
+  - expected: 先にも
+    patterns:
+      - 先にの
+  - expected: イヤーピース
+    patterns:
+      - イヤピース
