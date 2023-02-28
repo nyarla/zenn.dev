@@ -3,7 +3,7 @@ title: "毒気のある Web サービスをすべて猫化する"
 emoji: "🐱"
 type: "idea"
 topics: ["userscript", "usercss"]
-published: false
+published: true
 ---
 
 > 貴様も猫にしてやろうか……!
