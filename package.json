@@ -13,6 +13,6 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.141"
+    "zenn-cli": "^0.1.144"
   }
 }
