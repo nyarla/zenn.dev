@@ -1,50 +1,76 @@
 rules:
-  sentence-length:
-    max: 140
-  max-ten:
-    max: 5
-  max-kanji-continuous-len:
-    max: 6
-    allow:
-      - 第三者配信事業者
-      - 自立支援医療制度
-      - 障害者基礎年金
+  # プリセット
+  ## 日本語向け
+  preset-japanese:
+    max-ten:
+      max: 5
+    sentence-length:
+      max: 140
+
+  ## JTF Style
   preset-jtf-style:
     "2.1.8.算用数字": false
     "2.2.2.算用数字と漢数字の使い分け": false
-    "3.1.1.全角文字と半角文字の間": false
-  no-mix-dearu-desumasu:
-    preferInHeader": ""
-    preferInBody": "ですます"
-    preferInList": "である"
-    strict": true
+
+  ## スペース周り
+  preset-ja-spacing:
+    textlint-rule-ja-space-after-exclamation: false
+    textlint-rule-ja-space-after-question: false
+    textlint-rule-ja-space-around-code: false
+    textlint-rule-ja-space-around-link: false
+
+  # 個別ルール
+  ## 漢字を一定以上連続させない
+  max-kanji-continuous-len:
+    max: 6
+
+  ## 文末文字
   ja-no-mixed-period:
     periodMark: "。"
     allowPeriodMarks:
       - "："
       - "、"
     forceAppendPeriod: true
-  no-dropping-the-ra: true
-  no-doubled-conjunction: true
-  no-doubled-joshi:
-    min_interval: 1
-  no-nfd: true
-  "@textlint-rule/no-invalid-control-character": true
-  no-zero-width-spaces: true
+
+  ## 言い間違えの検出
+  ja-no-successive-word:
+    allowOnomatopee: true
+    allow:
+      - "/[…！]/u"
+
+  ## 不自然なアルファベットの検出
+  ja-unnatural-alphabet: true
+
+  ## 誤用チェック
+  ja-no-abusage: true
+
+  ## 冗長な表現チェック
+  ja-no-redundant-expression: true
+
+  ## 「サ」入れ/抜きの誤用チェック
+  "@textlint-ja/textlint-rule-no-insert-dropping-sa": true
+
+  ## 「レ」入れ/抜きの誤用チェック
+  "@textlint-ja/textlint-rule-no-insert-re": true
+
+  ## 同義語の表現ゆれチェック
+  "@textlint-ja/no-synonyms": true
+
+  ## 感嘆符のを全角で
   no-exclamation-question-mark:
     allowHalfWidthExclamation: false
     allowHalfWidthQuestion: false
     allowFullWidthExclamation: true
     allowFullWidthQuestion: true
     allow: []
-  ja-no-successive-word:
-    allowOnomatopee: true
-    allow:
-      - "/[\\u2000-\\u2DFF\\u2E00-\\u33FF\\uF900-\\uFFFD]/"
-  ja-no-abusage: true
-  ja-no-redundant-expression: true
-  ja-unnatural-alphabet: true
+
+  ## 括弧などの不一致をチェック
   "@textlint-rule/textlint-rule-no-unmatched-pair": true
+
+  ## 日付けと曜日が間違っているかどうかをチェック
+  "date-weekday-mismatch": true
+
+  ## 校閲
   prh:
     rulePaths:
       - .prh.yaml
