@@ -2,7 +2,7 @@
   "name": "zenn.dev",
   "private": true,
   "scripts": {
-    "serve": "npx zenn preview"
+    "serve": "zenn preview --port 1313"
   },
   "repository": {
     "type": "git",
@@ -13,6 +13,6 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.144"
+    "zenn-cli": "^0.1.154"
   }
 }
