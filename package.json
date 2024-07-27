@@ -2,7 +2,7 @@
   "name": "zenn.dev",
   "private": true,
   "scripts": {
-    "serve": "npx zenn preview"
+    "serve": "zenn preview --port 1313"
   },
   "repository": {
     "type": "git",
