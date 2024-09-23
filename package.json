@@ -13,7 +13,7 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.155",
+    "zenn-cli": "^0.1.157",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.2",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
