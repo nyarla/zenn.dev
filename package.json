@@ -13,7 +13,6 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
-    "zenn-cli": "^0.1.158",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.2",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
@@ -30,7 +29,8 @@
     "textlint-rule-no-exclamation-question-mark": "^1.1.0",
     "textlint-rule-preset-ja-spacing": "^2.4.3",
     "textlint-rule-preset-japanese": "^10.0.4",
-    "textlint-rule-preset-jtf-style": "^3.0.1",
-    "textlint-rule-prh": "^6.0.0"
+    "textlint-rule-preset-jtf-style": "^3.0.2",
+    "textlint-rule-prh": "^6.0.0",
+    "zenn-cli": "^0.1.158"
   }
 }
