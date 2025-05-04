@@ -19,7 +19,7 @@
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
     "sudachi-synonyms-dictionary": "^14.0.0",
     "textlint": "^14.6.0",
-    "textlint-rule-date-weekday-mismatch": "^1.0.6",
+    "textlint-rule-date-weekday-mismatch": "^1.1.0",
     "textlint-rule-ja-no-abusage": "^3.0.0",
     "textlint-rule-ja-no-mixed-period": "^3.0.1",
     "textlint-rule-ja-no-redundant-expression": "^4.0.1",
