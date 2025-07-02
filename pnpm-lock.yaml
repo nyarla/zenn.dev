@@ -78,25 +78,21 @@ packages:
     resolution: {integrity: sha512-cjQ7ZlQ0Mv3b47hABuTevyTuYN4i+loJKGeV9flcCgIK37cCXRh+L1bd3iBHlynerhQ7BhCkn2BPbQUL+rGqFg==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/helper-string-parser@7.25.9':
-    resolution: {integrity: sha512-4A/SCr/2KLd5jrtOMFzaKjVtAei3+2r/NChoBNoZ3EyP/+GlhoaEGoWOZUmFmoITP7zOJyHIMm+DYRd8o3PvHA==}
-    engines: {node: '>=6.9.0'}
-
-  '@babel/helper-validator-identifier@7.25.9':
-    resolution: {integrity: sha512-Ed61U6XJc3CVRfkERJWDz4dJwKe7iLmmJsbOGu9wSloNSFttHV0I8g6UAgb7qnK5ly5bGLPd4oXZlxCdANBOWQ==}
+  '@babel/helper-string-parser@7.27.1':
+    resolution: {integrity: sha512-qMlSxKbpRlAridDExk92nSobyDdpPijUq2DW6oDnUqd0iOGxmQjyqhMIihI9+zv4LPyZdRje2cavWPbCbWm3eA==}
     engines: {node: '>=6.9.0'}
 
   '@babel/helper-validator-identifier@7.27.1':
     resolution: {integrity: sha512-D2hP9eA+Sqx1kBZgzxZh0y1trbuU+JoDkiEwqhQ36nodYqJwyEIhPSdMNd7lOm/4io72luTPWH20Yda0xOuUow==}
     engines: {node: '>=6.9.0'}
 
-  '@babel/parser@7.27.0':
-    resolution: {integrity: sha512-iaepho73/2Pz7w2eMS0Q5f83+0RKI7i4xmiYeBmDzfRVbQtTOG7Ts0S4HzJVsTMGI9keU8rNfuZr8DKfSt7Yyg==}
+  '@babel/parser@7.27.7':
+    resolution: {integrity: sha512-qnzXzDXdr/po3bOTbTIQZ7+TxNKxpkN5IifVLXS+r7qwynkZfPyjZfE7hCXbo7IoO9TNcSyibgONsf2HauUd3Q==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
-  '@babel/types@7.27.0':
-    resolution: {integrity: sha512-H45s8fVLYjbhFH62dIJ3WtmJ6RSPt/3DRO0ZcT2SUiYiQyz3BLVb9ADEnLl91m74aQPS3AzzeajZHYOalWe3bg==}
+  '@babel/types@7.27.7':
+    resolution: {integrity: sha512-8OLQgDScAOHXnAz2cV+RfzzNMipuLVBz2biuAJFMV9bfkNf393je3VM8CLkjQodW5+iWsSJdSgSWT6rsZoXHPw==}
     engines: {node: '>=6.9.0'}
 
   '@isaacs/cliui@8.0.2':
@@ -106,8 +102,23 @@ packages:
   '@keyv/serialize@1.0.3':
     resolution: {integrity: sha512-qnEovoOp5Np2JDGonIDL6Ayihw0RhnRh6vxPuHo4RDn1UOzwEo4AeIfpL6UGIrsceWrCMiVPgwRjbHu4vYFc3g==}
 
-  '@modelcontextprotocol/sdk@1.13.2':
-    resolution: {integrity: sha512-Vx7qOcmoKkR3qhaQ9qf3GxiVKCEu+zfJddHv6x3dY/9P6+uIwJnmuAur5aB+4FDXf41rRrDnOEGkviX5oYZ67w==}
+  '@kvs/env@2.2.0':
+    resolution: {integrity: sha512-G66d4q8ATY7jsKz6KovHE9ScQ4HSs9BtkRUiLMVI/nHeHHA+KDt4qYZQ2KmaC9LPIAc7bJmR7uAH8DTBamJKhw==}
+
+  '@kvs/indexeddb@2.1.4':
+    resolution: {integrity: sha512-7xIF5hLREZFXnsYnR51LTAaO+pWFDMoBzF2vdl/RVnPP+7/WJS+7npO1aZ+EDrAMeJwAARhXFF/3NI3Wy3DCXQ==}
+
+  '@kvs/node-localstorage@2.2.0':
+    resolution: {integrity: sha512-ADvFxbCZF2t4vzwU2Ng3I7+vviSLTc5bkCGgVUeEfcRqaM781ZAO5bHn9kiYUIziIf5fESkOnQxrJQqmQtpI0g==}
+
+  '@kvs/storage@2.1.4':
+    resolution: {integrity: sha512-d4sdTdCjAsyX9v9Q3rFciG9rUs24KNIMUzRv3fVIpbehlnfTWZ5TACucN6LAMFZaqgEnBKLxghwfUCrsaYDzig==}
+
+  '@kvs/types@2.1.4':
+    resolution: {integrity: sha512-XtTOUatnJrDcuYNPfN+9x1xuVp11IuyPi9zOLVJPpfnKp+vUCatka/Crp2cfz0uKt4QE1Pb4Dg/TNYgVYA2Org==}
+
+  '@modelcontextprotocol/sdk@1.13.3':
+    resolution: {integrity: sha512-bGwA78F/U5G2jrnsdRkPY3IwIwZeWUEfb5o764b79lb0rJmMT76TLwKhdNZOWakOQtedYefwIR4emisEMvInKA==}
     engines: {node: '>=18'}
 
   '@pkgjs/parseargs@0.11.0':
@@ -179,8 +190,8 @@ packages:
   '@textlint/markdown-to-ast@15.1.0':
     resolution: {integrity: sha512-BmkMknfh13Cu6OkchU3cOK+cAgrvnHdAWe0uSra9IPm65kchb4qDDNZbIwmy/QGHKQ3olasX6w5qe5OvhzdEmg==}
 
-  '@textlint/module-interop@14.4.2':
-    resolution: {integrity: sha512-PQqUgLcTnCTJ8qpYxLP6p98VzTP/Ju8QIDwTWYRpH00KHdmH9cR1/9O+l6YaWsJSGDtSL2zkMKIQLezpvBZ4cw==}
+  '@textlint/module-interop@14.8.4':
+    resolution: {integrity: sha512-1LdPYLAVpa27NOt6EqvuFO99s4XLB0c19Hw9xKSG6xQ1K82nUEyuWhzTQKb3KJ5Qx7qj14JlXZLfnEuL6A16Bw==}
 
   '@textlint/module-interop@15.1.0':
     resolution: {integrity: sha512-qdGmYW/IYEUhOvuQj+KoPM33l8oSp60ltUZTiAXm0Jy1dU1DxO/H8XuM/6PwrI1SZ7D5L6e4M0a/9oRDNjwHvA==}
@@ -271,6 +282,10 @@ packages:
     resolution: {integrity: sha512-bN798gFfQX+viw3R7yrGWRqnrN2oRkEkUjjl4JNn4E8GxxbjtG3FbrEIIY3l8/hrwUwIeCZvi4QuOTP4MErVug==}
     engines: {node: '>=12'}
 
+  app-root-path@3.1.0:
+    resolution: {integrity: sha512-biN3PwB2gUtjaYy/isrU3aNWI5w+fAfvHkSvCKeQGxhmYpwKFUxudR3Yya+KqVRHBmEDYh+/lTozYCFbmzX4nA==}
+    engines: {node: '>= 6.0.0'}
+
   argparse@1.0.10:
     resolution: {integrity: sha512-o5Roy6tNG4SL/FOkCAN6RzjiakZS25RLYFrcMttJqbdd8BWrnA+fGz57iN5Pb06pvBGvl5gQ0B48dJlslXvoTg==}
 
@@ -334,8 +349,8 @@ packages:
     resolution: {integrity: sha512-/Nf7TyzTx6S3yRJObOAV7956r8cr2+Oj8AC5dt8wSP3BQAoeX58NoHyCU8P8zGkNXStjTSi6fzO6F0pBdcYbEg==}
     engines: {node: '>= 0.8'}
 
-  cacheable@1.10.0:
-    resolution: {integrity: sha512-SSgQTAnhd7WlJXnGlIi4jJJOiHzgnM5wRMEPaXAU4kECTAMpBoYKoZ9i5zHmclIEZbxcu3j7yY/CF8DTmwIsHg==}
+  cacheable@1.10.1:
+    resolution: {integrity: sha512-Fa2BZY0CS9F0PFc/6aVA6tgpOdw+hmv9dkZOlHXII5v5Hw+meJBIWDcPrG9q/dXxGcNbym5t77fzmawrBQfTmQ==}
 
   call-bind-apply-helpers@1.0.2:
     resolution: {integrity: sha512-Sp1ablJ0ivDkSzjcaJdxEunN5/XvksFJ2sMBFfq6x0ryhQV/2b/KwFe21cMpmHtPOSij8K99/wSfoEuTObmuMQ==}
@@ -601,8 +616,8 @@ packages:
     resolution: {integrity: sha512-afd4O7zpqHeRyg4PfDQsXmlDe2PfdHtJt6Akt8jOWaApLOZk5JXs6VMR29lz03pRe9mpykrRCYIYxaJYcfpncQ==}
     engines: {node: '>=18'}
 
-  flat-cache@6.1.10:
-    resolution: {integrity: sha512-B6/v1f0NwjxzmeOhzfXPGWpKBVA207LS7lehaVKQnFrVktcFRfkzjZZ2gwj2i1TkEUMQht7ZMJbABUT5N+V1Nw==}
+  flat-cache@6.1.11:
+    resolution: {integrity: sha512-zfOAns94mp7bHG/vCn9Ru2eDCmIxVQ5dELUHKjHfDEOJmHNzE+uGa6208kfkgmtym4a0FFjEuFksCXFacbVhSg==}
 
   flatted@3.3.3:
     resolution: {integrity: sha512-GX+ysw4PBCz0PzosHDepZGANEuFCMLrnRTiEy9McGjmkCQYwRq4A/X786G/fjM/+OjsWSU1ZrY5qyARZmO/uwg==}
@@ -661,6 +676,9 @@ packages:
     resolution: {integrity: sha512-ZUKRh6/kUFoAiTAtTYPZJ3hw9wNxx+BIBOijnlG9PnrJsCcSjs1wyyD6vJpaYtgnzDrKYRSqf3OO6Rfa93xsRg==}
     engines: {node: '>= 0.4'}
 
+  graceful-fs@4.2.11:
+    resolution: {integrity: sha512-RbJ5/jmFcNNCcDV5o9eTnBLJ/HszWV0P73bc+Ff4nS/rJj+YaS6IGyiOL0VoBYX+l1Wrl3k63h/KrH+nhJ0XvQ==}
+
   has-bigints@1.1.0:
     resolution: {integrity: sha512-R3pbpkcIqv2Pm3dUwgjclDRVmWpTJW2DcMzcIhEXEx1oh/CEMObMm3KLmRJOdvhM7o4uQBnwr8pzRK2sJWIqfg==}
     engines: {node: '>= 0.4'}
@@ -714,6 +732,10 @@ packages:
 
   ieee754@1.2.1:
     resolution: {integrity: sha512-dcyqhDvX1C46lXZcVqCpK+FtMRQVdIMN6/Df5js2zouUsqG7I6sFxitIC+7KYK29KdXOLHdu9zL4sFnoVQnqaA==}
+
+  imurmurhash@0.1.4:
+    resolution: {integrity: sha512-JmXMZ6wuvDmLiHEml9ykzqO6lwFbof0GG4IkcGaENdCRDDmMVnny7s5HsIgHCbaq0w2MyPhDqkhTUgS2LU2PHA==}
+    engines: {node: '>=0.8.19'}
 
   index-to-position@1.1.0:
     resolution: {integrity: sha512-XPdx9Dq4t9Qk1mTMbWONJqU7boCoumEH7fRET37HX5+khDUl3J2W6PdALxhILYlIYx2amlwYcRPp28p0tSiojg==}
@@ -916,8 +938,8 @@ packages:
   kuromoji@0.1.2:
     resolution: {integrity: sha512-V0dUf+C2LpcPEXhoHLMAop/bOht16Dyr+mDiIE39yX3vqau7p80De/koFqpiTcL1zzdZlc3xuHZ8u5gjYRfFaQ==}
 
-  kuromojin@3.0.0:
-    resolution: {integrity: sha512-3h3qnn/NVVhqoKFP4oc7e6apO2B01Atc056oiVlIY7Uoup4rhrnBe28g3y9lK1HTmLDQEejvXB+3I3qxAneF7A==}
+  kuromojin@3.0.1:
+    resolution: {integrity: sha512-E4rLmbTid8ZGH8Fw421UXvfgCe0IXGFKhUw/IosBVW6ootxVGKGbtb0UPQAvPswgsXX/8UuPiE+amz1NN11Uzg==}
 
   levn@0.4.1:
     resolution: {integrity: sha512-+bT2uH4E5LGE7h/n3evcS/sQlJXCpIp6ym8OWJ5eV6+67Dsql/LaaT7qJBAt2rzfoa/5QBGBhxDix1dMt2kQKQ==}
@@ -1076,6 +1098,10 @@ packages:
   neotraverse@0.6.18:
     resolution: {integrity: sha512-Z4SmBUweYa09+o6pG+eASabEpP6QkQ70yHj351pQoEXIs8uHbaU2DWVmzBANKgflPa47A50PtB2+NgRpQvr7vA==}
     engines: {node: '>= 10'}
+
+  node-localstorage@2.2.1:
+    resolution: {integrity: sha512-vv8fJuOUCCvSPjDjBLlMqYMHob4aGjkmrkaE42/mZr0VT+ZAU10jRF8oTnX9+pgU9/vYJ8P7YT3Vd6ajkmzSCw==}
+    engines: {node: '>=0.12'}
 
   normalize-package-data@6.0.2:
     resolution: {integrity: sha512-V6gygoYb/5EmNI+MEGrWkC+e6+Rr7mTmfHrxDbLzxQogBkgzo76rkok0Am6thgSF7Mv2nLOajAJj5vDJZEFn7g==}
@@ -1337,6 +1363,9 @@ packages:
   slice-ansi@4.0.0:
     resolution: {integrity: sha512-qMCMfhY040cVHT43K9BFygqYbUPFZKHOg7K73mtTWJRb8pyP3fzf4Ixd5SzdEJQ6MRUg/WBnOLxghZtKKurENQ==}
     engines: {node: '>=10'}
+
+  slide@1.1.6:
+    resolution: {integrity: sha512-NwrtjCg+lZoqhFU8fOwl4ay2ei8PaqCBOUV3/ektPY9trO1yQ1oXEfmHAhKArUVUr/hOHvy5f6AdP17dCM0zMw==}
 
   space-separated-tokens@1.1.5:
     resolution: {integrity: sha512-q/JSVd1Lptzhf5bkYm4ob4iWPjx0KiRe3sRFBNrVqbJkFaBm5vbbowy1mymoPNLRa52+oadOhJ+K49wsSeSjTA==}
@@ -1665,6 +1694,9 @@ packages:
   wrappy@1.0.2:
     resolution: {integrity: sha512-l4Sp/DRseor9wL6EvV2+TuQn63dMkPjZ/sp9XkghTEbV9KlPS1xUsZ3u7/IQO4wxtcFB4bgpQPRcR3QCvezPcQ==}
 
+  write-file-atomic@1.3.4:
+    resolution: {integrity: sha512-SdrHoC/yVBPpV0Xq/mUZQIpW2sWXAShb/V4pomcJXh92RuaO+f3UTWItiR3Px+pLnV2PvC2/bfn5cwr5X6Vfxw==}
+
   xtend@4.0.2:
     resolution: {integrity: sha512-LKYU1iAXJXUgAXn9URjiu+MWhyUXHsvfp7mcuYm9dSUKK0/CjtrUwFAxD82/mCWbtLsGjFIad0wIsod4zrTAEQ==}
     engines: {node: '>=0.4'}
@@ -1702,20 +1734,18 @@ snapshots:
       js-tokens: 4.0.0
       picocolors: 1.1.1
 
-  '@babel/helper-string-parser@7.25.9': {}
-
-  '@babel/helper-validator-identifier@7.25.9': {}
+  '@babel/helper-string-parser@7.27.1': {}
 
   '@babel/helper-validator-identifier@7.27.1': {}
 
-  '@babel/parser@7.27.0':
+  '@babel/parser@7.27.7':
     dependencies:
-      '@babel/types': 7.27.0
+      '@babel/types': 7.27.7
 
-  '@babel/types@7.27.0':
+  '@babel/types@7.27.7':
     dependencies:
-      '@babel/helper-string-parser': 7.25.9
-      '@babel/helper-validator-identifier': 7.25.9
+      '@babel/helper-string-parser': 7.27.1
+      '@babel/helper-validator-identifier': 7.27.1
 
   '@isaacs/cliui@8.0.2':
     dependencies:
@@ -1730,13 +1760,35 @@ snapshots:
     dependencies:
       buffer: 6.0.3
 
-  '@modelcontextprotocol/sdk@1.13.2':
+  '@kvs/env@2.2.0':
+    dependencies:
+      '@kvs/indexeddb': 2.1.4
+      '@kvs/node-localstorage': 2.2.0
+
+  '@kvs/indexeddb@2.1.4':
+    dependencies:
+      '@kvs/types': 2.1.4
+
+  '@kvs/node-localstorage@2.2.0':
+    dependencies:
+      '@kvs/storage': 2.1.4
+      app-root-path: 3.1.0
+      node-localstorage: 2.2.1
+
+  '@kvs/storage@2.1.4':
+    dependencies:
+      '@kvs/types': 2.1.4
+
+  '@kvs/types@2.1.4': {}
+
+  '@modelcontextprotocol/sdk@1.13.3':
     dependencies:
       ajv: 6.12.6
       content-type: 1.0.5
       cors: 2.8.5
       cross-spawn: 7.0.6
       eventsource: 3.0.7
+      eventsource-parser: 3.0.3
       express: 5.1.0
       express-rate-limit: 7.5.1(express@5.1.0)
       pkce-challenge: 5.0.0
@@ -1752,12 +1804,12 @@ snapshots:
   '@textlint-ja/textlint-rule-no-insert-dropping-sa@2.0.1':
     dependencies:
       array-find-index: 1.0.2
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match-all: 2.0.5
 
   '@textlint-ja/textlint-rule-no-insert-re@1.0.2':
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       textlint-rule-helper: 2.3.1
 
   '@textlint-ja/textlint-rule-no-synonyms@1.3.0(sudachi-synonyms-dictionary@14.0.0)':
@@ -1909,7 +1961,7 @@ snapshots:
     transitivePeerDependencies:
       - supports-color
 
-  '@textlint/module-interop@14.4.2': {}
+  '@textlint/module-interop@14.8.4': {}
 
   '@textlint/module-interop@15.1.0': {}
 
@@ -2018,7 +2070,7 @@ snapshots:
 
   analyze-desumasu-dearu@5.0.2:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   ansi-regex@5.0.1: {}
 
@@ -2029,6 +2081,8 @@ snapshots:
       color-convert: 2.0.1
 
   ansi-styles@6.2.1: {}
+
+  app-root-path@3.1.0: {}
 
   argparse@1.0.10:
     dependencies:
@@ -2100,7 +2154,7 @@ snapshots:
 
   bytes@3.1.2: {}
 
-  cacheable@1.10.0:
+  cacheable@1.10.1:
     dependencies:
       hookified: 1.10.0
       keyv: 5.3.4
@@ -2417,7 +2471,7 @@ snapshots:
 
   file-entry-cache@10.1.1:
     dependencies:
-      flat-cache: 6.1.10
+      flat-cache: 6.1.11
 
   finalhandler@2.1.0:
     dependencies:
@@ -2432,9 +2486,9 @@ snapshots:
 
   find-up-simple@1.0.1: {}
 
-  flat-cache@6.1.10:
+  flat-cache@6.1.11:
     dependencies:
-      cacheable: 1.10.0
+      cacheable: 1.10.1
       flatted: 3.3.3
       hookified: 1.10.0
 
@@ -2508,6 +2562,8 @@ snapshots:
 
   gopd@1.2.0: {}
 
+  graceful-fs@4.2.11: {}
+
   has-bigints@1.1.0: {}
 
   has-flag@4.0.0: {}
@@ -2566,6 +2622,8 @@ snapshots:
       safer-buffer: 2.1.2
 
   ieee754@1.2.1: {}
+
+  imurmurhash@0.1.4: {}
 
   index-to-position@1.1.0: {}
 
@@ -2764,8 +2822,9 @@ snapshots:
       doublearray: 0.0.2
       zlibjs: 0.3.1
 
-  kuromojin@3.0.0:
+  kuromojin@3.0.1:
     dependencies:
+      '@kvs/env': 2.2.0
       kuromoji: 0.1.2
       lru_map: 0.4.1
 
@@ -2973,6 +3032,10 @@ snapshots:
   negotiator@1.0.0: {}
 
   neotraverse@0.6.18: {}
+
+  node-localstorage@2.2.1:
+    dependencies:
+      write-file-atomic: 1.3.4
 
   normalize-package-data@6.0.2:
     dependencies:
@@ -3319,6 +3382,8 @@ snapshots:
       astral-regex: 2.0.0
       is-fullwidth-code-point: 3.0.0
 
+  slide@1.1.6: {}
+
   space-separated-tokens@1.1.5: {}
 
   spdx-correct@3.2.0:
@@ -3429,7 +3494,7 @@ snapshots:
 
   textlint-rule-ja-no-abusage@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match-textlint: 2.0.6
       textlint-rule-prh: 5.3.0
 
@@ -3441,7 +3506,7 @@ snapshots:
   textlint-rule-ja-no-redundant-expression@4.0.1:
     dependencies:
       '@textlint/regexp-string-matcher': 1.1.1
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       morpheme-match: 2.0.4
       morpheme-match-all: 2.0.5
       textlint-rule-helper: 2.3.1
@@ -3461,7 +3526,7 @@ snapshots:
   textlint-rule-ja-no-successive-word@2.0.1:
     dependencies:
       '@textlint/regexp-string-matcher': 1.1.1
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   textlint-rule-ja-space-after-exclamation@2.4.2:
     dependencies:
@@ -3502,38 +3567,38 @@ snapshots:
 
   textlint-rule-max-ten@5.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-double-negative-ja@2.0.1:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
 
   textlint-rule-no-doubled-conjunction@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
 
   textlint-rule-no-doubled-conjunctive-particle-ga@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-doubled-joshi@5.1.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       sentence-splitter: 5.0.0
       textlint-rule-helper: 2.3.1
       textlint-util-to-string: 3.3.4
 
   textlint-rule-no-dropping-the-ra@3.0.0:
     dependencies:
-      kuromojin: 3.0.0
+      kuromojin: 3.0.1
       textlint-rule-helper: 2.3.1
 
   textlint-rule-no-exclamation-question-mark@1.1.0:
@@ -3572,7 +3637,7 @@ snapshots:
   textlint-rule-preset-japanese@10.0.4:
     dependencies:
       '@textlint-rule/textlint-rule-no-invalid-control-character': 3.0.0
-      '@textlint/module-interop': 14.4.2
+      '@textlint/module-interop': 14.8.4
       textlint-rule-max-ten: 5.0.0
       textlint-rule-no-double-negative-ja: 2.0.1
       textlint-rule-no-doubled-conjunction: 3.0.0
@@ -3598,14 +3663,14 @@ snapshots:
 
   textlint-rule-prh@5.3.0:
     dependencies:
-      '@babel/parser': 7.27.0
+      '@babel/parser': 7.27.7
       prh: 5.4.4
       textlint-rule-helper: 2.3.1
       untildify: 3.0.3
 
   textlint-rule-prh@6.1.0:
     dependencies:
-      '@babel/parser': 7.27.0
+      '@babel/parser': 7.27.7
       prh: 5.4.4
       textlint-rule-helper: 2.3.1
 
@@ -3634,7 +3699,7 @@ snapshots:
 
   textlint@15.1.0:
     dependencies:
-      '@modelcontextprotocol/sdk': 1.13.2
+      '@modelcontextprotocol/sdk': 1.13.3
       '@textlint/ast-node-types': 15.1.0
       '@textlint/ast-traverse': 15.1.0
       '@textlint/config-loader': 15.1.0
@@ -3874,6 +3939,12 @@ snapshots:
       strip-ansi: 7.1.0
 
   wrappy@1.0.2: {}
+
+  write-file-atomic@1.3.4:
+    dependencies:
+      graceful-fs: 4.2.11
+      imurmurhash: 0.1.4
+      slide: 1.1.6
 
   xtend@4.0.2: {}
 
