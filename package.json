@@ -2,7 +2,8 @@
   "name": "zenn.dev",
   "private": true,
   "scripts": {
-    "serve": "zenn preview --port 1313"
+    "serve": "zenn preview --port 1313",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -13,12 +14,13 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.2",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
-    "@commitlint/cli": "^19.8.1",
-    "@commitlint/config-conventional": "^19.8.1",
+    "husky": "^9.1.7",
     "sudachi-synonyms-dictionary": "^14.0.0",
     "textlint": "^15.2.1",
     "textlint-rule-date-weekday-mismatch": "^1.1.1",
