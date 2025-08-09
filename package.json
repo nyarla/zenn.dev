@@ -3,6 +3,7 @@
   "type": "module",
   "private": true,
   "scripts": {
+    "up": "tmux new-window && tmux send-keys '(sleep 1 && xdg-open http://nixos:1313/) & ; bun run serve' C-m && tmux select-window -t 1 && nvim .",
     "serve": "zenn preview --port 1313",
     "prepare": "husky"
   },
