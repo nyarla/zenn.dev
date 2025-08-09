@@ -1,5 +1,6 @@
 {
   "name": "zenn.dev",
+  "type": "module",
   "private": true,
   "scripts": {
     "serve": "zenn preview --port 1313",
