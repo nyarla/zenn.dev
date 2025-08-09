@@ -1,15 +1,24 @@
 ---
 version: 2
 updates:
-  - package-ecosystem: npm
+  - package-ecosystem: bun
     directory: "/"
     schedule:
-      interval: weekly
-      time: "10:00"
+      interval: daily
+      timezone: "Asia/Tokyo"
+    labels:
+      - "dependabot"
+      - "bump(bun)"
+    commit-message:
+      prefix: "chore(bun): "
+
+  - package-ecosystem: github-actions
+    directory: "/"
+    schedule:
+      interval: daily
       timezone: "Asia/Tokyo"
     labels:
       - dependabot
-    pull-request-branch-name:
-      separator: "_"
+      - "bump(github-actions)"
     commit-message:
-      prefix: "chore(dependabot): "
+      prefix: "chore(github-actions): "
