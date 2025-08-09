@@ -1,8 +1,11 @@
 {
   "name": "zenn.dev",
+  "type": "module",
   "private": true,
   "scripts": {
-    "serve": "zenn preview --port 1313"
+    "up": "tmux new-window && tmux send-keys '(sleep 1 && xdg-open http://nixos:1313/) & ; bun run serve' C-m && tmux select-window -t 1 && nvim .",
+    "serve": "zenn preview --port 1313",
+    "prepare": "husky"
   },
   "repository": {
     "type": "git",
@@ -13,13 +16,16 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
+    "@commitlint/cli": "^19.8.1",
+    "@commitlint/config-conventional": "^19.8.1",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.2",
     "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
     "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
+    "husky": "^9.1.7",
     "sudachi-synonyms-dictionary": "^14.0.0",
-    "textlint": "^14.4.2",
-    "textlint-rule-date-weekday-mismatch": "^1.0.6",
+    "textlint": "^15.2.1",
+    "textlint-rule-date-weekday-mismatch": "^1.1.1",
     "textlint-rule-ja-no-abusage": "^3.0.0",
     "textlint-rule-ja-no-mixed-period": "^3.0.1",
     "textlint-rule-ja-no-redundant-expression": "^4.0.1",
@@ -30,7 +36,7 @@
     "textlint-rule-preset-ja-spacing": "^2.4.3",
     "textlint-rule-preset-japanese": "^10.0.4",
     "textlint-rule-preset-jtf-style": "^3.0.2",
-    "textlint-rule-prh": "^6.0.0",
-    "zenn-cli": "^0.1.158"
+    "textlint-rule-prh": "^6.1.0",
+    "zenn-cli": "^0.2.1"
   }
 }
