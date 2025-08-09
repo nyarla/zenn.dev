@@ -7,7 +7,7 @@ topics:
   - nix
   - nixflakes
   - nixos
-published: false
+published: true
 ---
 
 ## 話の前提
