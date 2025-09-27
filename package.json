@@ -16,7 +16,7 @@
   },
   "homepage": "https://github.com/nyarla/zenn.dev#readme",
   "dependencies": {
-    "@commitlint/cli": "^19.8.1",
+    "@commitlint/cli": "^20.0.0",
     "@commitlint/config-conventional": "^19.8.1",
     "@textlint-ja/textlint-rule-no-insert-dropping-sa": "^2.0.1",
     "@textlint-ja/textlint-rule-no-insert-re": "^1.0.2",
