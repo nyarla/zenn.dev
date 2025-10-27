@@ -25,7 +25,7 @@
         "textlint-rule-preset-japanese": "^10.0.4",
         "textlint-rule-preset-jtf-style": "^3.0.3",
         "textlint-rule-prh": "^6.1.0",
-        "zenn-cli": "^0.2.6",
+        "zenn-cli": "^0.2.8",
       },
     },
   },
@@ -1046,7 +1046,7 @@
 
     "yocto-queue": ["yocto-queue@1.2.1", "", {}, "sha512-AyeEbWOu/TAXdxlV9wmGcR0+yh2j3vYPGOECcIj2S7MkrLyC7ne+oye2BKTItt0ii2PHk4cDy+95+LshzbXnGg=="],
 
-    "zenn-cli": ["zenn-cli@0.2.6", "", { "bin": { "zenn": "dist/server/zenn.js" } }, "sha512-rDRd13/PuJBjpj5nskuf0tOgPb9SBMHF6r4Fu0zdYQsK0iLPtoP240RhZdAIh5d70jPgjf4EtSTRgoJ8n9Tvjg=="],
+    "zenn-cli": ["zenn-cli@0.2.8", "", { "bin": { "zenn": "dist/server/zenn.js" } }, "sha512-HIUf4m2aSBZM0+eVERwbjkcF8HCSc0p7pfa9CkTkXKhJohCh2Oho+z0s3RczuMLMYOGnD6TWyqUKveTFuJX9dw=="],
 
     "zlibjs": ["zlibjs@0.3.1", "", {}, "sha512-+J9RrgTKOmlxFSDHo0pI1xM6BLVUv+o0ZT9ANtCxGkjIVCCUdx9alUF8Gm+dGLKbkkkidWIHFDZHDMpfITt4+w=="],
 
