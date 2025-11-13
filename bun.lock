@@ -11,7 +11,7 @@
         "@textlint-ja/textlint-rule-no-synonyms": "^1.3.0",
         "@textlint-rule/textlint-rule-no-unmatched-pair": "^2.0.4",
         "husky": "^9.1.7",
-        "sudachi-synonyms-dictionary": "^15.0.0",
+        "sudachi-synonyms-dictionary": "^16.0.0",
         "textlint": "^15.2.3",
         "textlint-rule-date-weekday-mismatch": "^1.1.1",
         "textlint-rule-ja-no-abusage": "^3.0.0",
@@ -890,7 +890,7 @@
 
     "structured-source": ["structured-source@4.0.0", "", { "dependencies": { "boundary": "^2.0.0" } }, "sha512-qGzRFNJDjFieQkl/sVOI2dUjHKRyL9dAJi2gCPGJLbJHBIkyOHxjuocpIEfbLioX+qSJpvbYdT49/YCdMznKxA=="],
 
-    "sudachi-synonyms-dictionary": ["sudachi-synonyms-dictionary@15.0.0", "", {}, "sha512-iBFo1sxzVMxg6YAy28q8shDAiwl7AiEeVf2HEUZTi2+HISyGye0qUtqkpiQMxx3fy3IfeC9DuMhX5GYgEt1wVg=="],
+    "sudachi-synonyms-dictionary": ["sudachi-synonyms-dictionary@16.0.0", "", {}, "sha512-2Tms1VA5QPRC7kOoxZznvnu6XXcl2ddglvNGKcMpxOKAbDZG5fZsS8GfpsJQSIfLKj5oZT2mxveMPWlHvqdedw=="],
 
     "supports-color": ["supports-color@7.2.0", "", { "dependencies": { "has-flag": "^4.0.0" } }, "sha512-qpCAvRl9stuOHveKsn7HncJRvv501qIacKzQlO/+Lwxc9+0q2wLyv4Dfvt80/DPn2pqOBsJdDiogXGR9+OvwRw=="],
 
